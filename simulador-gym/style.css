@@ -1,0 +1,122 @@
+/* Contenido principal */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://i.pinimg.com/1200x/54/f3/14/54f314195bf1fa08929a60af67b1259b.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+/* Navbar de bienvenida */
+header {
+    background-color: #ff6f00;
+    padding: 20px;
+    text-align: center;
+    color: #fff3e0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+/* Centro del contenido */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 15px;
+}
+
+/* Contenedor del simulador */
+#app {
+    padding: 30px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 420px;
+    box-shadow: 0 6px 12px rgba(255, 140, 0, 0.3);
+    background-color: rgba(255, 248, 240, 0.9);
+    backdrop-filter: blur(2px); 
+}
+
+/* Formularios */
+form select,
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 2px solid #ff8f00;
+    background-color: #fff4e1;
+    font-size: 17px;
+    color: #bf360c;
+    transition: border-color 0.3s ease;
+}
+
+form select:focus,
+form input:focus {
+    border-color: #ff6f00;
+    outline: none;
+    background-color: #fff8f0;
+}
+
+/* Botón */
+form button {
+    background-color: #ff6f00;
+    color: #fff3e0;
+    border: none;
+    padding: 16px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 0 4px 8px rgba(255, 111, 0, 0.6);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form button:hover {
+    background-color: #e65c00;
+    box-shadow: 0 6px 14px rgba(230, 92, 0, 0.8);
+}
+
+/* Historial de inscripciones */
+#historial {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.85);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #4e342e;
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#historial h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #bf360c;
+    font-weight: bold;
+}
+
+#historial p {
+    margin: 8px 0;
+    line-height: 1.4;
+}
+
+#historial p span {
+    font-weight: bold;
+}

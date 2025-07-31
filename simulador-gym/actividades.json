@@ -1,0 +1,7 @@
+[
+  { "nombre": "Musculación", "precio": 30000 },
+  { "nombre": "Funcional", "precio": 25000 },
+  { "nombre": "Boxeo", "precio": 22000 },
+  { "nombre": "Pilates", "precio": 28000 },
+  { "nombre": "Natación", "precio": 26000 }
+]
